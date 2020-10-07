@@ -52,3 +52,4 @@ CMakeLists.txt.user
 
 # Maplab temporary files.
 *.vi_command_history
+applications/rovioli/build_0619

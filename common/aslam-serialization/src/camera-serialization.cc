@@ -74,6 +74,7 @@ void serializeNCamera(
   CHECK_NOTNULL(proto);
 
   ::common::aslam_id_proto::serialize(n_camera.getId(), proto->mutable_id());
+  // aslam::NCamera has no member of getLabel(). if use newer version aslam_cv2. 20.6.19
   proto->set_label(n_camera.getLabel());
 
   typedef ::common::proto::SemiStaticMatrixd MatrixProto;

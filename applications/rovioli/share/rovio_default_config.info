@@ -1,4 +1,4 @@
-; Warning some parameres (such as the calibration) are overwritten when loading.
+; Warning some parameters (such as the calibration) are overwritten when loading.
 Common
 {
   doVECalibration true;  Should the camera-IMU extrinsics be calibrated online
